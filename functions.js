@@ -3,11 +3,7 @@
 
 function isEven(num) {
   if (typeof(num) === "number") {
-    if (num % 2 === 0) {
-      return true;
-    } else {
-      return false;
-    }
+    return num % 2 === 0;
   }
   else return "Please type in a number";
 }
